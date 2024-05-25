@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%
+        }
+
+        .desc,
+        .header {
+            text-align: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        img {
+            padding: 10px;
+            display: flex;
+            height: 100px;
+        }
+
+        h1 {
+            margin-left: 10px;
+        }
+
+        .header {
+            justify-content: center;
+            display: flex;
+            background-color: gray;
+            color: white;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+            border: solid 1px black;
+        }
+
+        td {
+            text-align: center;
+            border: solid 1px black;
+        }
+
+        .footer {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            padding: 3px;
+        }
+
+        .tt th,
+        .tt td {
+            height: 50px;
+        }
+
+        .info th,
+        .info td {
+            padding: 3px;
+            height: 30px;
+        }
+
+        #college-name {
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="https://jssstuniv.in/assets/img/logo/jssstulogo.png" />
+        <h1 id="college-name">JSS Science and Technology University</h1><br><br>
+    </div>
+    <div class="desc">
+        <h1>Computer Science and Engineering</h1>
+        <h2>TIMETABLE FOR ACADEMIC YEAR 2024 (EVEN SEMESTER)</h2>
+        <h2>SEMESTER: VI E Section</h2>
+    </div>
+    <table class="tt">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>7:30-8:30</th>
+                <th>8:30-9:30</th>
+                <th>9:30-10:30</th>
+                <th>10:30-11:00</th>
+                <th>11:00-11:50</th>
+                <th>11:50-12:40</th>
+                <th>12:40-1:30</th>
+                <th>1:30-2:30</th>
+                <th>2:30-3:30</th>
+                <th>3:30-4:30</th>
+                <th>4:30-5:30</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td></td>
+                <td></td>
+                <td>Open Elective - 2</td>
+                <td rowspan="6">Break</td>
+                <td>20CS641/ <br>
+                    20CS642/ <br>
+                    20CS643
+                </td>
+                <td>20HU612</td>
+                <td>20CS610</td>
+                <td rowspan="6">Break</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td></td>
+                <td></td>
+                <td>Open Elective - 3</td>
+                <td>20CS610</td>
+                <td>20CS620</td>
+                <td>20HU612</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td></td>
+                <td>20CS641/ <br>
+                    20CS642/ <br>
+                    20CS643 </td>
+                <td>Open Elective - 2</td>
+                <td colspan="3">20CS630P E2 </br> [11:00-1:00]</td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td></td>
+                <td>20CS630</td>
+                <td>Open Elective - 3</td>
+                <td colspan="3">20CS67L E2 </br>
+                    20CS68L E1 </br> </td>
+                <td>20CS630</td>
+                <td>20CS610</td>
+                <td>20CS620</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td></td>
+                <td>20CS641/ <br>
+                    20CS642/ <br>
+                    20CS643</td>
+                <td>Open Elective - 2</td>
+                <td>20CS630</td>
+                <td>20CS610</td>
+                <td>20CS620</td>
+                <td colspan="2">20CS630P E1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td></td>
+                <td></td>
+                <td>Open Elective - 3</td>
+                <td colspan="3">20CS67L E2 </br>
+                    20CS68L E1 </br> </td>
+
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table><br><br>
+    <table class="info">
+        <thead>
+            <tr>
+                <th>Subject Code</th>
+                <th>Subject</th>
+                <th>Credits</th>
+                <th>Course Instructors</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>20CS610</td>
+                <td>Machine Learning</td>
+                <td>4</td>
+                <td>Prof. SNM</td>
+            </tr>
+            <tr>
+                <td>20CS620</td>
+                <td>Web Technology</td>
+                <td>4</td>
+                <td>Prof. VS</td>
+            </tr>
+            <tr>
+                <td>20CS630</td>
+                <td>Internet Of Things</td>
+                <td>3</td>
+                <td>Prof. SGC</td>
+            </tr>
+            <tr>
+                <td>20CS641/ <br>
+                    20CS642/ <br>
+                    20CS643</td>
+                <td>Cloud Computing/ <br>
+                    Automotive Cyber Security/ <br>
+                    Cyber Security</td>
+                <td>3</td>
+                <td>Prof. MAA/ <br>
+                    Prof. HDN/ <br>
+                    Prof. SPM/Prof. RP/Prof. RK</td>
+            </tr>
+            <tr>
+                <td>20CS630P</td>
+                <td>Internet Of Things Laboratory</td>
+                <td>1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>20CS67L</td>
+                <td>Machine Learning Laboratory</td>
+                <td>1.5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>20CS68L</td>
+                <td>Web Technology Laboratory</td>
+                <td>1.5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>20HU612</td>
+                <td>Indian Constitution</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table><br><br>
+    <div class="footer">
+        <p>JSS Science And Technology University</p>
+    </div>
+</body>
+
+</html>
